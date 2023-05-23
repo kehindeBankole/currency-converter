@@ -26,7 +26,6 @@ function CurrencyConversion(props: {
         setValue(formatter.format(value));
       }
       props.next(value)
-   //   debounce(props.next(value));
     }
   };
 
